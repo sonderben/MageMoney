@@ -7,18 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1787C428A2AB1200974193 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1787C328A2AB1200974193 /* Enums.swift */; };
+		DA1787C728A2AFC100974193 /* Collect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1787C628A2AFC100974193 /* Collect.swift */; };
+		DA1787C928A2B06600974193 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1787C828A2B06600974193 /* Signature.swift */; };
+		DA1787CB28A2D55F00974193 /* PaymentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1787CA28A2D55F00974193 /* PaymentDetail.swift */; };
+		DA25862228693DB20058AD93 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA25862028693DB20058AD93 /* CoreData.xcdatamodeld */; };
+		DA2586342869478F0058AD93 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2586332869478F0058AD93 /* Persistence.swift */; };
+		DA2862F0286A0B7200BD8D5E /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2862EF286A0B7200BD8D5E /* CurrencyView.swift */; };
+		DA4924FB2891AAFB00689365 /* Loan+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4924F92891AAFB00689365 /* Loan+CoreDataClass.swift */; };
+		DA4924FC2891AAFB00689365 /* Loan+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4924FA2891AAFB00689365 /* Loan+CoreDataProperties.swift */; };
 		DA62C76F27EE80B800CAC5EC /* MageMoneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA62C76E27EE80B800CAC5EC /* MageMoneyApp.swift */; };
 		DA62C77127EE80B800CAC5EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA62C77027EE80B800CAC5EC /* ContentView.swift */; };
 		DA62C77327EE80BA00CAC5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA62C77227EE80BA00CAC5EC /* Assets.xcassets */; };
 		DA62C77627EE80BA00CAC5EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA62C77527EE80BA00CAC5EC /* Preview Assets.xcassets */; };
+		DA62C77D27EE816E00CAC5EC /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA62C77C27EE816E00CAC5EC /* HomeItem.swift */; };
+		DA62C77F27EEB1A000CAC5EC /* Enter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA62C77E27EEB1A000CAC5EC /* Enter.swift */; };
+		DA7479D227F3E59A00B982B6 /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7479D127F3E59A00B982B6 /* Income.swift */; };
+		DA7479D427F3E86900B982B6 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7479D327F3E86900B982B6 /* Loan.swift */; };
+		DA75872C2885C9A5005F1C0A /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA75872B2885C9A4005F1C0A /* MyExtensions.swift */; };
+		DA7B16D128A5546C00B37F00 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = DA7B16D028A5546C00B37F00 /* CodeScanner */; };
+		DAA7D6B427EF7463001116DA /* UtilsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7D6B327EF7463001116DA /* UtilsView.swift */; };
+		DAE0F14428A6996700AFEF55 /* DashBoardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0F14328A6996700AFEF55 /* DashBoardItemView.swift */; };
+		DAEA7C7C28A49C0B0052C2C1 /* Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA7C7B28A49C0B0052C2C1 /* Output.swift */; };
+		DAEA7C8328A4A83B0052C2C1 /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA7C8128A4A83B0052C2C1 /* Expense+CoreDataClass.swift */; };
+		DAEA7C8428A4A83B0052C2C1 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA7C8228A4A83B0052C2C1 /* Expense+CoreDataProperties.swift */; };
+		DAEA7C8628A4AC210052C2C1 /* ExpenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA7C8528A4AC210052C2C1 /* ExpenceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA1787C328A2AB1200974193 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		DA1787C628A2AFC100974193 /* Collect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collect.swift; sourceTree = "<group>"; };
+		DA1787C828A2B06600974193 /* Signature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
+		DA1787CA28A2D55F00974193 /* PaymentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetail.swift; sourceTree = "<group>"; };
+		DA25862128693DB20058AD93 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		DA2586332869478F0058AD93 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DA2862EF286A0B7200BD8D5E /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		DA4924F92891AAFB00689365 /* Loan+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loan+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DA4924FA2891AAFB00689365 /* Loan+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loan+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DA62C76B27EE80B800CAC5EC /* MageMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MageMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA62C76E27EE80B800CAC5EC /* MageMoneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MageMoneyApp.swift; sourceTree = "<group>"; };
 		DA62C77027EE80B800CAC5EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA62C77227EE80BA00CAC5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA62C77527EE80BA00CAC5EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA62C77C27EE816E00CAC5EC /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
+		DA62C77E27EEB1A000CAC5EC /* Enter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enter.swift; sourceTree = "<group>"; };
+		DA7479D127F3E59A00B982B6 /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		DA7479D327F3E86900B982B6 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		DA75872B2885C9A4005F1C0A /* MyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensions.swift; sourceTree = "<group>"; };
+		DAA7D6B327EF7463001116DA /* UtilsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsView.swift; sourceTree = "<group>"; };
+		DAE0F14328A6996700AFEF55 /* DashBoardItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardItemView.swift; sourceTree = "<group>"; };
+		DAEA7C7B28A49C0B0052C2C1 /* Output.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Output.swift; sourceTree = "<group>"; };
+		DAEA7C8128A4A83B0052C2C1 /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DAEA7C8228A4A83B0052C2C1 /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DAEA7C8528A4AC210052C2C1 /* ExpenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,15 +67,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7B16D128A5546C00B37F00 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA1787C528A2AB5000974193 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0F14228A6991C00AFEF55 /* Home */,
+				DAEA7C7A28A49BCE0052C2C1 /* OutputView */,
+				DA2862EF286A0B7200BD8D5E /* CurrencyView.swift */,
+				DA7479D027F3E52700B982B6 /* EnterView */,
+				DA1787C628A2AFC100974193 /* Collect.swift */,
+				DA1787C828A2B06600974193 /* Signature.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DA62C76227EE80B700CAC5EC = {
 			isa = PBXGroup;
 			children = (
+				DAEA7C8128A4A83B0052C2C1 /* Expense+CoreDataClass.swift */,
+				DAEA7C8228A4A83B0052C2C1 /* Expense+CoreDataProperties.swift */,
+				DA4924F92891AAFB00689365 /* Loan+CoreDataClass.swift */,
+				DA4924FA2891AAFB00689365 /* Loan+CoreDataProperties.swift */,
 				DA62C76D27EE80B800CAC5EC /* MageMoney */,
 				DA62C76C27EE80B800CAC5EC /* Products */,
 			);
@@ -51,10 +110,16 @@
 		DA62C76D27EE80B800CAC5EC /* MageMoney */ = {
 			isa = PBXGroup;
 			children = (
+				DA1787C528A2AB5000974193 /* View */,
+				DA75872A2885C96A005F1C0A /* utils */,
+				DAF9615227F286B700E7260D /* entity */,
 				DA62C76E27EE80B800CAC5EC /* MageMoneyApp.swift */,
 				DA62C77027EE80B800CAC5EC /* ContentView.swift */,
 				DA62C77227EE80BA00CAC5EC /* Assets.xcassets */,
 				DA62C77427EE80BA00CAC5EC /* Preview Content */,
+				DAA7D6B327EF7463001116DA /* UtilsView.swift */,
+				DA25862028693DB20058AD93 /* CoreData.xcdatamodeld */,
+				DA2586332869478F0058AD93 /* Persistence.swift */,
 			);
 			path = MageMoney;
 			sourceTree = "<group>";
@@ -65,6 +130,51 @@
 				DA62C77527EE80BA00CAC5EC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA7479D027F3E52700B982B6 /* EnterView */ = {
+			isa = PBXGroup;
+			children = (
+				DA62C77E27EEB1A000CAC5EC /* Enter.swift */,
+				DA7479D127F3E59A00B982B6 /* Income.swift */,
+				DA7479D327F3E86900B982B6 /* Loan.swift */,
+				DA1787CA28A2D55F00974193 /* PaymentDetail.swift */,
+			);
+			path = EnterView;
+			sourceTree = "<group>";
+		};
+		DA75872A2885C96A005F1C0A /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				DA1787C328A2AB1200974193 /* Enums.swift */,
+				DA75872B2885C9A4005F1C0A /* MyExtensions.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		DAE0F14228A6991C00AFEF55 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA62C77C27EE816E00CAC5EC /* HomeItem.swift */,
+				DAE0F14328A6996700AFEF55 /* DashBoardItemView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DAEA7C7A28A49BCE0052C2C1 /* OutputView */ = {
+			isa = PBXGroup;
+			children = (
+				DAEA7C7B28A49C0B0052C2C1 /* Output.swift */,
+				DAEA7C8528A4AC210052C2C1 /* ExpenceView.swift */,
+			);
+			path = OutputView;
+			sourceTree = "<group>";
+		};
+		DAF9615227F286B700E7260D /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +193,9 @@
 			dependencies = (
 			);
 			name = MageMoney;
+			packageProductDependencies = (
+				DA7B16D028A5546C00B37F00 /* CodeScanner */,
+			);
 			productName = MageMoney;
 			productReference = DA62C76B27EE80B800CAC5EC /* MageMoney.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +224,9 @@
 				Base,
 			);
 			mainGroup = DA62C76227EE80B700CAC5EC;
+			packageReferences = (
+				DA7B16CF28A5546C00B37F00 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = DA62C76C27EE80B800CAC5EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +253,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4924FB2891AAFB00689365 /* Loan+CoreDataClass.swift in Sources */,
+				DAE0F14428A6996700AFEF55 /* DashBoardItemView.swift in Sources */,
+				DA1787C728A2AFC100974193 /* Collect.swift in Sources */,
+				DA7479D227F3E59A00B982B6 /* Income.swift in Sources */,
+				DA62C77F27EEB1A000CAC5EC /* Enter.swift in Sources */,
+				DAEA7C7C28A49C0B0052C2C1 /* Output.swift in Sources */,
+				DA2862F0286A0B7200BD8D5E /* CurrencyView.swift in Sources */,
+				DA25862228693DB20058AD93 /* CoreData.xcdatamodeld in Sources */,
+				DAA7D6B427EF7463001116DA /* UtilsView.swift in Sources */,
+				DA1787C428A2AB1200974193 /* Enums.swift in Sources */,
 				DA62C77127EE80B800CAC5EC /* ContentView.swift in Sources */,
+				DA62C77D27EE816E00CAC5EC /* HomeItem.swift in Sources */,
+				DAEA7C8328A4A83B0052C2C1 /* Expense+CoreDataClass.swift in Sources */,
+				DA2586342869478F0058AD93 /* Persistence.swift in Sources */,
 				DA62C76F27EE80B800CAC5EC /* MageMoneyApp.swift in Sources */,
+				DA1787C928A2B06600974193 /* Signature.swift in Sources */,
+				DA1787CB28A2D55F00974193 /* PaymentDetail.swift in Sources */,
+				DAEA7C8428A4A83B0052C2C1 /* Expense+CoreDataProperties.swift in Sources */,
+				DA75872C2885C9A5005F1C0A /* MyExtensions.swift in Sources */,
+				DA4924FC2891AAFB00689365 /* Loan+CoreDataProperties.swift in Sources */,
+				DAEA7C8628A4AC210052C2C1 /* ExpenceView.swift in Sources */,
+				DA7479D427F3E86900B982B6 /* Loan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +406,13 @@
 				DEVELOPMENT_TEAM = 6C96MY2848;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR codes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +437,13 @@
 				DEVELOPMENT_TEAM = 6C96MY2848;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR codes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +479,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA7B16CF28A5546C00B37F00 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA7B16D028A5546C00B37F00 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA7B16CF28A5546C00B37F00 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		DA25862028693DB20058AD93 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA25862128693DB20058AD93 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = DA25862128693DB20058AD93 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DA62C76327EE80B700CAC5EC /* Project object */;
 }

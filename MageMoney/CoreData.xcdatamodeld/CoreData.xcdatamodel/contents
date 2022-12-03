@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21223.12" systemVersion="22A5286j" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Billing" representedClassName="Billing" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="description_" optional="YES" attributeType="String"/>
+        <attribute name="signature" optional="YES" attributeType="Binary"/>
+        <attribute name="statut" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="loan" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Loan" inverseName="billing" inverseEntity="Loan"/>
+    </entity>
+    <entity name="Currency" representedClassName="Currency" syncable="YES" codeGenerationType="class">
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="countryFlag" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isoCurrencyCode" optional="YES" attributeType="String"/>
+        <relationship name="expense" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Expense" inverseName="currency" inverseEntity="Expense"/>
+        <relationship name="income" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Income" inverseName="currency" inverseEntity="Income"/>
+        <relationship name="loan" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Loan" inverseName="currency" inverseEntity="Loan"/>
+    </entity>
+    <entity name="Expense" representedClassName="Expense" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="dateAdded" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="currency" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Currency" inverseName="expense" inverseEntity="Currency"/>
+    </entity>
+    <entity name="Income" representedClassName="Income" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="dateAdded" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="currency" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Currency" inverseName="income" inverseEntity="Currency"/>
+    </entity>
+    <entity name="Loan" representedClassName="Loan" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="beginDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="birthday" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deadline" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="interestRate" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="interestType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="passport" optional="YES" attributeType="String"/>
+        <attribute name="sex" optional="YES" attributeType="String"/>
+        <attribute name="signatureAtBeginnig" optional="YES" attributeType="Binary"/>
+        <attribute name="signatureWhenPaid" optional="YES" attributeType="Binary"/>
+        <attribute name="telephone" optional="YES" attributeType="String"/>
+        <attribute name="timeInterest" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="billing" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Billing" inverseName="loan" inverseEntity="Billing"/>
+        <relationship name="currency" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Currency" inverseName="loan" inverseEntity="Currency"/>
+    </entity>
+    <elements>
+        <element name="Billing" positionX="63" positionY="144" width="128" height="119"/>
+        <element name="Currency" positionX="-45.1640625" positionY="-19.76171875" width="128" height="134"/>
+        <element name="Income" positionX="165.015625" positionY="1.19140625" width="128.00390625" height="134"/>
+        <element name="Loan" positionX="63" positionY="54" width="128" height="284"/>
+        <element name="Expense" positionX="63" positionY="144" width="128" height="119"/>
+    </elements>
+</model>
